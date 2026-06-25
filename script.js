@@ -1,0 +1,1 @@
+function logMsg(t){document.getElementById("log").innerHTML += "<p>["+new Date().toLocaleTimeString()+"] "+t+"</p>";}

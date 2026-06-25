@@ -1,0 +1,14 @@
+body{font-family:Arial,sans-serif;background:#f4f5f7;margin:0;color:#111}
+header{display:flex;justify-content:space-between;align-items:center;padding:20px 40px;background:#fff}
+.logo{font-size:40px;font-weight:700}.logo span{color:#8b3dff} small{background:#ff7f50;color:#fff;padding:6px 10px;border-radius:15px;margin-left:8px}
+nav button{padding:14px 20px;border:none;border-radius:12px;margin:0 5px}.active{background:#8b3dff;color:#fff}
+.status{background:#eefaf2;padding:12px;border-radius:20px}
+.container{display:grid;grid-template-columns:2fr 1fr;gap:25px;padding:30px}
+.hero,.cart,.products,.sim{background:#fff;border-radius:20px;padding:30px}
+.banner{height:220px;background:linear-gradient(45deg,#ddd,#bbb);display:flex;align-items:center;justify-content:center;border-radius:20px;font-size:32px;font-weight:bold}
+.item,.card{border:1px solid #ddd;padding:20px;border-radius:15px;margin:10px 0}
+.free{color:green;font-weight:bold}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+.card span{background:#222;color:#0f9;padding:6px 10px;border-radius:20px}
+.sim button{display:block;width:100%;margin:10px 0;padding:16px;border:none;border-radius:12px;background:linear-gradient(90deg,#8b3dff,#ff6a00);color:#fff;font-size:18px}
+#log{margin-top:20px;background:#eef3fa;padding:20px;border-radius:15px;min-height:120px}
+@media(max-width:900px){.container{grid-template-columns:1fr}header{flex-direction:column;gap:15px}}
